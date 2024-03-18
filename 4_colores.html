@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .cuadrado {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            cursor: pointer;
+            border: 1px solid black;
+        }
+        
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cuadro {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            cursor: pointer;
+            border: 1px solid black;
+        }
+
+    </style>
+<body>
+    <div class="centrado">
+        <div>
+            <h1 class="centrado">rojo</h1>   
+            <div class="cuadrado" id="cuadrado1" onclick="a()"></div>
+        </div>
+        <div>
+            <h1 class="centrado">azul</h1> 
+            <div class="cuadrado" id="cuadrado2" onclick="b()"></div>
+        </div>
+        <div>
+            <h1 class="centrado">verde</h1> 
+            <div class="cuadrado" id="cuadrado3" onclick="c()"></div>
+        </div>
+        <div>
+            <h1 class="centrado">amarillo</h1> 
+            <div class="cuadrado" id="cuadrado4" onclick="d()"></div>
+        </div>
+    </div>
+    <div class="centrado">
+        <h1>colores que puedes cambiar apretando las siguientes teclas</h1>
+    </div>
+    <div class="centrado">
+    <ul>
+        <li>A:color rosado</li>
+        <li>S:color naranjo</li>
+        <li>D:color celeste</li>
+    </ul>
+    </div>
+    <div class="centrado">
+        <div class="cuadrado" id="color5"></div>
+        </div>
+
+        <div  class="centrado">
+            <h1>colores que puedes cambiar apretando las siguientes teclas</h1>
+        </div>
+        <div class="centrado">
+            <ul>
+                <li>q:color morado</li>
+                <li>w:color gris</li>
+                <li>e:color cafe</li>
+            </ul>
+        </div>
+        <div class="centrado">
+            <div class="cuadro" id="colors"  onclick="q()"></div>
+            <div class="cuadro" id="colors1"  onclick="w()"></div>
+            <div class="cuadro" id="colors2"  onclick="e()"></div>
+        </div>  
+
+    <a href="./index.html">inicio</a>
+    <a href="./pintar.html">colores</a>
+</body>
+<script src="./assets/js/4_colores.js"></script>
+</html>

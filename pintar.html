@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        transition: background-color 0.5s ease;
+    }
+    .color1 {
+        background-color: red;
+    }
+    .color2 {
+        background-color: blue;
+    }
+
+    #cuadrada {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            cursor: pointer;
+        }
+</style>
+<body>
+    
+    <h1>Presiona el boton "q(Q)" para mostrar color rojo y "w(W)" para quitar el color</h1>
+    <h1>Presiona el boton "f(F)" para mostrar color azul y "v(V)" para quitar el color</h1>
+
+
+    <p id="texto" style=" color: green; cursor: pointer;" onclick="cambiarcolor()">Haz clic en este texto para cambiar su color</p>
+
+    <div id="cuadrada" onclick="cuadrado1()"></div>
+
+    <a href="./index.html">inicio</a>
+    <a href="./4_colores.html">cuadros</a>  
+
+</body>
+<script src="./assets/js/colores.js"></script>
+</html>
